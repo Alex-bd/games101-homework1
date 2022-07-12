@@ -125,13 +125,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Games101-Homework-Win-master\Assignment1\rasterizer.hpp" />
-    <ClInclude Include="..\..\Games101-Homework-Win-master\Assignment1\Triangle.hpp" />
+    <ClInclude Include="rasterizer.hpp" />
+    <ClInclude Include="Triangle.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Games101-Homework-Win-master\Assignment1\main.cpp" />
-    <ClCompile Include="..\..\Games101-Homework-Win-master\Assignment1\rasterizer.cpp" />
-    <ClCompile Include="..\..\Games101-Homework-Win-master\Assignment1\Triangle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="rasterizer.cpp" />
+    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
